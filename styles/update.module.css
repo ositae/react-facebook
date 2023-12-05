@@ -1,0 +1,10 @@
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .menu > * {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
