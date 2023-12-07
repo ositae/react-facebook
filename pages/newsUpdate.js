@@ -1,6 +1,6 @@
 import styles from '../styles/Inbox.module.css';
 
-export default function News({ username, content, image }) {
+export default function NewsUpdate({ username, content }) {
     return (
         <div className={styles.card}>
             <h3>{username}</h3>
