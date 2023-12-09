@@ -1,0 +1,90 @@
+.sideBarContainer {
+	width: 300px;
+	padding: 10px 20px 0;
+}
+
+.sideBarHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.greyBackgroundIcons {
+	background-color: lightgray;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.greyBackgroundIconsActive {
+	background-color: rgb(83, 83, 195);
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchBar {
+	border-radius: 10px;
+	background-color: rgb(230, 229, 229);
+	background-image: url('/search.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	margin-top: 0;
+	height: 30px;
+	vertical-align: top;
+	width: 260px;
+	border-radius: 25px;
+	margin-bottom: 1rem;
+}
+
+.sideBarListItem {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+.gamesSection h4 {
+	padding: 0;
+	margin: 0;
+}
+.sideBarListItem h4 {
+	margin: 0;
+	margin-left: 20px;
+}
+
+.gamesSection {
+	border-top: lightgray solid 1px;
+	margin-top: 1rem;
+}
+
+.saveGamesSectionHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 1rem 0 0;
+	/* line-height: 50px; */
+}
+
+.saveGamesSectionHeader a {
+	text-decoration: none;
+	color: blue;
+}
+
+.gamesSection p {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	color: lightslategray;
+}
+
+.gamesCategoriesSection {
+	border-top: lightgray solid 1px;
+	margin-top: 1rem;
+}
