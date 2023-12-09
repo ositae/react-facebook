@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../../styles/games.module.css';
+import styles from '../../styles/Games.module.css';
 
 function SmallGameCard() {
 	return (

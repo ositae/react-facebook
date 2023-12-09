@@ -11,7 +11,7 @@ const gamesWeLove = [
 	},
 	{
 		name: 'The Puzzle',
-		playersNum: '3M playeres',
+		playersNum: '3M players',
 		img: 'the-puzzle.jpg',
 	},
 	{
