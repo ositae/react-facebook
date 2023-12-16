@@ -1,0 +1,65 @@
+.contentBody {
+	display: flex;
+}
+
+.smallGameCard {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 0.25rem;
+	object-fit: cover;
+}
+.smallGameCard h4,
+.largeGameCard h4 {
+	margin: 0;
+}
+
+.largeGameCard {
+	width: 150px;
+	height: calc(300px + 0.5rem);
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 0.25rem;
+}
+
+.largeGameCard img {
+	object-fit: cover;
+	height: calc(300px + 0.5rem);
+}
+
+.gameCardDetails {
+	background-color: rgb(197, 192, 192, 70%);
+	color: white;
+	z-index: 1;
+	padding: 0.5rem;
+	position: absolute;
+	bottom: 0;
+	width: calc(150px - 1rem);
+}
+
+.gameCardPlayers {
+	margin: 0.5rem 0.5rem 0 0;
+	padding: 0.5rem;
+	background-color: rgb(38, 37, 37);
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.gamesWeLove {
+	display: flex;
+	flex-direction: row;
+}
+
+.topPicks {
+	display: flex;
+}
+
+.topPicksSmall {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
